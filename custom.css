@@ -61,3 +61,11 @@ h1, h3, h2 {
     border: #E6E6E6 5px solid;
     align-content: flex-end;
 }
+
+#work {
+    padding-right: 3rem !important;
+}
+
+#last {
+    padding-left: 3rem !important;
+}
