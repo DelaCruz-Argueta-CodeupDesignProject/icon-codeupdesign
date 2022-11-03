@@ -59,3 +59,8 @@ div#host.col {
     color: white;
     font-weight: bolder;
 }
+
+#bottom-logo col {
+    height: 18px;
+    width: 18px;
+}
