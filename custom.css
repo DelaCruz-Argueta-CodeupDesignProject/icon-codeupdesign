@@ -1,10 +1,6 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');*/
-
-/*font-family: 'Abel', sans-serif;*/
-/*font-family: 'Anton', sans-serif;*/
-
 body {
     background-color: #F0F0F0;
+    font-family: 'Abel', sans-serif;
 }
 
 #design, #develop, #support, #host {
@@ -57,3 +53,6 @@ body {
     margin-top: 4rem;
 }
 
+h1, h3, h2 {
+    font-family: 'Anton', sans-serif;
+}
