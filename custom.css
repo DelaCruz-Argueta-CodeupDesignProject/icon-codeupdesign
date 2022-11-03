@@ -16,7 +16,9 @@ nav {
     align-items: center;
     border: white 10px solid;
     color: white;
-    font-weight: bolder;
+    font-family:'Anton';
+    font-weight: bold;
+
 }
 
 #selected-pics #logo, #selected-pics #logo2, #selected-pics #logo3, #selected-pics #logo4 {
@@ -76,4 +78,5 @@ h1, h3, h2 {
 
 h1 {
     font-size: 5rem;
+    font-weight: bolder;
 }
