@@ -7,60 +7,42 @@ body {
     background-color: #F0F0F0;
 }
 
-div#design.col {
+#design, #develop, #support, #host {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: white 10px solid;
+    color: white;
+    font-weight: bolder;
+}
+
+#selected-pics #logo, #selected-pics #logo2, #selected-pics #logo3, #selected-pics #logo4 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: white 2px solid;
+    color: black;
+    font-weight: bolder;
+}
+
+#logo, #design {
     background-color: #E6563B !important;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: white 10px solid;
-    color: white;
-    font-weight: bolder;
-
 }
 
-div#develop.col {
+#logo2, #develop {
     background-color: #EB9D3A !important;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: white 10px solid;
-    color: white;
-    font-weight: bolder;
 }
 
-div#support.col {
+#logo3, #support {
     background-color: #7CB06C !important;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: white 10px solid;
-    color: white;
-    font-weight: bolder;
 }
 
-div#host.col {
+#logo4, #host {
     background-color: #00ABA9 !important;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: white 10px solid;
-    color: white;
-    font-weight: bolder;
-}
-
-#bottom-logo col {
-    height: 18px;
-    width: 18px;
 }
