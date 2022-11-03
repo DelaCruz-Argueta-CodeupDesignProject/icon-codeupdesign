@@ -16,9 +16,9 @@ nav {
     align-items: center;
     border: white 10px solid;
     color: white;
-    font-family:'Anton';
+    font-family: 'Anton', sans-serif;
     font-weight: bold;
-
+    font-size: 1.5rem;
 }
 
 #selected-pics #logo, #selected-pics #logo2, #selected-pics #logo3, #selected-pics #logo4 {
@@ -55,6 +55,11 @@ nav {
     margin-top: 4rem;
 }
 
+#selected-pics p {
+    flex-grow: 1;
+    text-align: start;
+}
+
 #title,#title2 {
     margin-top: 4rem;
 }
@@ -84,3 +89,11 @@ h1 {
 h3 {
     font-size: 3rem !important;
 }
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    #selected-pics img {
+        width: 325px;
+        height: 250px;
+    }
+}
+
