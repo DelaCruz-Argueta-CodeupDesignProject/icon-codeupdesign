@@ -9,8 +9,8 @@ nav {
 
 #design, #develop, #support, #host {
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 105px;
+    height: 105px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,16 +31,8 @@ nav {
     color: black;
     font-weight: bolder;
 }
-@media screen and (min-width: 300px) and (max-width: 768px) {
-    #design, #develop, #support, #host {
-        width: 150px;
-        height: 150px;
 
-    }
-}
-
-
-    #logo, #design {
+#logo, #design {
     background-color: #E6563B !important;
 }
 
@@ -98,10 +90,50 @@ h3 {
     font-size: 3rem !important;
 }
 
-@media screen and (min-width: 576px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 576px) {
+    #design, #develop, #support, #host {
+        font-size: 1rem;
+        border: 5px solid white;
+        margin: 0 1rem 1rem 1rem !important;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    #circCont {
+        margin: 0 !important;
+    }
+
+    #work {
+        padding: 0 !important;
+    }
+
     #selected-pics img {
         width: 325px;
-        height: 250px;
+    }
+
+    #caption {
+        padding: 0 2rem;
     }
 }
 
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    #design, #develop, #support, #host {
+        height: 150px;
+        width: 150px;
+    }
+
+    #selected-pics img {
+        height: 250px;
+        width: 300px;
+    }
+
+    #caption {
+        padding: 0 1rem;
+    }
+}
